@@ -1,4 +1,4 @@
-# Welcome to GitHub Pages
+# 览平科技工作室 ![icon](images/home_page/icon.jpg)
 
 You can use the [editor on GitHub](https://github.com/Lanping-Tech/lanping-tech.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
