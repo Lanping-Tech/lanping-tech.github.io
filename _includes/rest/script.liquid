@@ -7,3 +7,15 @@
 <script src="{{ base }}/assets/js/theme{% if site.debug.dist != false %}.min{% endif %}.js"></script>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: location.href, // 可选。默认为 location.href
+  owner: 'Lanping-Tech',
+  repo: 'lanping-tech.github.io',
+  oauth: {
+    client_id: '463e296a6c23e8686970',
+    client_secret: 'c827b7c5234e21c009c149c40964a13950566d12',
+  },
+})
+gitment.render('container')
+</script>
