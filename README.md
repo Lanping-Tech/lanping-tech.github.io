@@ -1,8 +1,8 @@
-# 览平科技工作室
+# 览平科技工作室 <img src="images/icon.jpg" width="5%" height="5%" >
 
 淘宝搜索店铺：「览平科技实验室」
 
-<center><img src="images/icon.jpg" width="30%" height="30%" ></center>
+
 
 ```tip
 本工作室承接各类`代码咨询、调试、代做和指导`，如有需求，请联系QQ：595946720，或将需求发邮件至595946720@qq.com
