@@ -1,6 +1,6 @@
 # 览平科技工作室
 
-<center><font face="黑体" size=5 color=blue>淘宝搜索店铺：「览平科技实验室」</font></center>
+<center><font face="黑体" size=4 color=blue>淘宝搜索店铺：「览平科技实验室」</font></center>
 
 <center><img src="images/icon.jpg" width="30%" height="30%" ></center>
 
@@ -48,7 +48,9 @@
 
 ## 团队成员
 
-览平
+蓝屏
 
-兰铃
+橘子
+
+
 
