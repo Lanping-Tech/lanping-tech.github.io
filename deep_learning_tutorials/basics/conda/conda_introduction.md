@@ -18,20 +18,20 @@ Conda 的优势在于可以很便捷地将不同项目的不同依赖使用虚�
 
 ## Conda 安装
 
-Conda的配置安装分为以下`3种方式`：
+Conda的配置安装分为以下**3种方式**：
 
-### **方式一：Anaconda 安装**
+### **方式一：Anaconda 安装** (新手推荐)
 
 第一种方式是最常见的 Anaconda 安装，读者可根据自己平台（`Linux`，`OS X` 或 `Windows`）点击下方链接进行下载安装。
 
-https://www.anaconda.com/products/individual#Downloads
+[https://www.anaconda.com/products/individual#Downloads](https://www.anaconda.com/products/individual#Downloads)
 
 见下图红框中的蓝色链接：
 ![conda_introduction_image_1](https://s3.bmp.ovh/imgs/2021/08/1b81f5f4de1f977b.jpg)
 
 由于网上安装资料很多很详细，安装过程也很简单，这里就不在赘述。
 
-### **方式二：Miniconda 安装**
+### **方式二：Miniconda 安装**（强迫症推荐）
 
 第二种方式是Miniconda安装方式。
 
@@ -39,12 +39,16 @@ Miniconda 是 Conda 免费最小的安装程序。它是 Anaconda 的小型引�
 
 同样，读者可根据自己平台（`Linux`，`OS X` 或 `Windows`）点击下方链接进行下载安装。
 
-https://docs.conda.io/en/latest/miniconda.html
+[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 
 见下图红框中的蓝色链接：
 ![conda_introduction_image_2](https://s3.bmp.ovh/imgs/2021/08/307756eb54c73d50.png)
 
-### **方式三：pip 安装**
+```tip
+在以上两种安装方式中，读者不需要提前安装 `Python` ，只需在创建虚拟环境中指定 `Python` 及其版本即可。
+```
+
+### **方式三：pip 安装** （中二推荐）
 
 第二种方式是通过 `pip` 进行Conda的安装。这种方式不常用，读者可自行尝试。
 
