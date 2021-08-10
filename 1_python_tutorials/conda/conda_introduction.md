@@ -80,9 +80,11 @@ pip install conda
 
 
 <hr>
-{:.bg-yellow-dark.text-white.p-5.box-shadow-large.anim-pulse}
+
 ```tip
 本工作室承接各类`代码咨询、调试、代做和指导`，业务范围详见[这里](https://lanping-tech.github.io/#%E6%89%BF%E6%8E%A5%E4%B8%9A%E5%8A%A1)。如有需求，请联系QQ：595946720，或将需求发邮件至595946720@qq.com
 ```
+
+{:.bg-yellow-dark.text-white.p-5.box-shadow-large.anim-pulse}
 <center><font face="黑体" size=4 color=blue>淘宝搜索店铺：「览平科技工作室」</font></center>
 <center><img src="images/icon.jpg" width="30%" height="30%" ></center>
