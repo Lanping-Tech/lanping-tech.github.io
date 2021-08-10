@@ -1,7 +1,7 @@
 ---
-sort: 1
+sort: 2
 ---
 
-# Conda
+# 深度学习教程
 
 {% include list.liquid all=true %}

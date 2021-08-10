@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# 深度学习教程
+# Python开发环境配置
 
 {% include list.liquid all=true %}

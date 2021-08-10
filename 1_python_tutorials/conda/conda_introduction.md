@@ -77,3 +77,14 @@ pip install conda
 ### 清理环境
 
 ### 删除环境
+
+
+<hr>
+
+```tip
+本工作室承接各类`代码咨询、调试、代做和指导`，如有需求，请联系QQ：595946720，或将需求发邮件至595946720@qq.com
+```
+
+<center><font face="黑体" size=4 color=blue>淘宝搜索店铺：「览平科技实验室」</font></center>
+
+<center><img src="images/icon.jpg" width="30%" height="30%" ></center>
