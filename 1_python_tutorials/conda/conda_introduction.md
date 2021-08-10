@@ -110,7 +110,7 @@ conda install --channel your_lib_url your_lib_name=x.x.x
 ```
 
 ```tip
-**小技巧：** 大多数镜像下载地址不能及时地将库、依赖更新至最新版本，建议`conda install` 和 `pip install` 混合使用。
+**小技巧：**大多数镜像下载地址不能及时地将库、依赖更新至最新版本，建议`conda install` 和 `pip install` 混合使用。
 ```
 
 ### 退出环境
@@ -150,6 +150,6 @@ conda remove -n your_env_name --all
 
 ```tip
 本工作室承接各类`代码咨询、调试、代做和指导`，业务范围详见[这里](https://lanping-tech.github.io/#%E6%89%BF%E6%8E%A5%E4%B8%9A%E5%8A%A1)。如有需求，见联系方式：
-- **QQ：** `595946720`
+- **QQ：**`595946720`
 - **淘宝搜索店铺：** `览平科技工作室`，联系客服即可。
 ```
