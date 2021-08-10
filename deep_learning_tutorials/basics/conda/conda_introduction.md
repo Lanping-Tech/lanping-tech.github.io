@@ -65,3 +65,15 @@ pip install conda
 ## Conda 基本使用技巧
 
 这里列举了一些最为常用的 Conda 命令的基本使用技巧，更为详细的命令及参数说明请参见 [Conda general commands](https://conda.io/projects/conda/en/latest/commands.html#conda-general-commands)。
+
+### 创建环境
+
+### 进入/切换环境
+
+### 安装依赖
+
+### 退出环境
+
+### 清理环境
+
+### 删除环境
