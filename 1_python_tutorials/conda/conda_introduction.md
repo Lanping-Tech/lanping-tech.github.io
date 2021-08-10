@@ -100,7 +100,7 @@ conda install your_lib_name=x.x.x
 
 - 指定镜像下载地址和版本的依赖安装
 ```bash
-conda install --channel your_lib_url your_lib_name=x.x.x
+conda install your_lib_name=x.x.x -c your_lib_url
 ```
 
 ```warning
