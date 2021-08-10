@@ -50,7 +50,7 @@ Miniconda 是 Conda 免费最小的安装程序。它是 Anaconda 的小型引�
 
 ### **方式三：pip 安装** <font face="黑体" color=orange>（中二推荐）</font>
 
-第二种方式是通过 `pip` 进行Conda的安装。这种方式不常用，读者可自行尝试。
+第三种方式是通过 `pip` 进行Conda的安装。这种方式不常用，读者可自行尝试。
 
 读者可通过在 `CMD` (或 `Terminal` )中，运行以下 `shell` 来进行安装。
 
