@@ -68,19 +68,88 @@ pip install conda
 
 ### 创建环境
 
+```bash
+conda create -n your_env_name python=x.x
+```
+
+```warning
+请将上述命令中的 `your_env_name` 和 `x.x` 改为自己所需创建的环境名称和 `Python` 版本号，不可直接复制粘贴运行！
+```
+
 ### 进入/切换环境
 
-### 安装依赖
+```bash
+conda activate your_env_name
+```
+
+```warning
+请将上述命令中的 `your_env_name` 改为自己所需进入的环境名称，不可直接复制粘贴运行！
+```
+
+### 依赖安装
+
+- 最新版本的依赖安装
+```bash
+conda install your_lib_name
+```
+
+- 指定版本的依赖安装
+```bash
+conda install your_lib_name=x.x.x
+```
+
+- 指定镜像下载地址和版本的依赖安装
+```bash
+conda install --channel your_lib_url your_lib_name=x.x.x
+```
+
+```warning
+请将上述命令中的 `your_lib_name`、`your_lib_url`和 `x.x.x` 改为自己所需安装的依赖名称、镜像下载地址和版本号，不可直接复制粘贴运行！
+
+另外，**建议依赖安装时，请检查当前环境是否为所需安装依赖的环境**，不可粗心大意！
+```
+
+```tip
+**小技巧：** 大多数镜像下载地址不能及时地将库、依赖更新至最新版本，建议`conda install` 和 `pip install` 混合使用。
+```
 
 ### 退出环境
 
+```bash
+conda deactivate   //退出当前环境
+```
+
 ### 清理环境
+
+- 清理未使用的依赖
+```bash
+conda clean -p
+```
+
+- 清理`tar`缓存
+```bash
+conda clean -t
+```
+
+- 清理索引缓存、锁文件、未使用的缓存包和`tar`缓存
+```bash
+conda clean -a
+```
 
 ### 删除环境
 
+```bash
+conda remove -n your_env_name --all
+```
+
+```warning
+请将上述命令中的 `your_env_name` 改为自己所需删除的环境名称，不可直接复制粘贴运行！
+```
 
 <hr>
 
 ```tip
-本工作室承接各类`代码咨询、调试、代做和指导`，业务范围详见[这里](https://lanping-tech.github.io/#%E6%89%BF%E6%8E%A5%E4%B8%9A%E5%8A%A1)。如有需求，请联系**QQ：** `595946720`，或**淘宝搜索店铺：** `览平科技工作室`，联系客服即可。
+本工作室承接各类`代码咨询、调试、代做和指导`，业务范围详见[这里](https://lanping-tech.github.io/#%E6%89%BF%E6%8E%A5%E4%B8%9A%E5%8A%A1)。如有需求，见联系方式：
+- **QQ：** `595946720`
+- **淘宝搜索店铺：** `览平科技工作室`，联系客服即可。
 ```
