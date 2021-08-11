@@ -4,7 +4,7 @@ sort: 2
 
 # Conda 国内镜像源及配置
 
-## Conda 国内镜像源
+## Conda 国内镜像源地址
 
 - 清华源
 ```bash

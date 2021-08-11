@@ -119,6 +119,12 @@ conda install your_lib_name=x.x.x -c your_lib_url
 conda deactivate   //退出当前环境
 ```
 
+### 已创建环境列表
+
+```bash
+conda env list
+```
+
 ### 清理环境
 
 - 清理未使用的依赖
