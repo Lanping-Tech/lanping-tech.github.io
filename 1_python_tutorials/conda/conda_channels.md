@@ -29,7 +29,7 @@ https://mirrors.bfsu.edu.cn/anaconda/pkgs/free
 
 ## Conda 国内镜像源配置
 
-**与其他教程不同的是，本文推荐的配置方法是** <font face="黑体" color=red>不配置</font>。
+**与其他教程不同的是，本文推荐的配置方法是** <font face="黑体" color=red><b>不配置</b></font>。
 
 ```note
 这里推荐不配置的原因在于：
@@ -40,14 +40,14 @@ https://mirrors.bfsu.edu.cn/anaconda/pkgs/free
 
 那么问题来了，**不配置**Conda 国内镜像源，**如何提高依赖库的下载速度呢？**
 
-这里参考上一篇 [Conda 基本使用技巧·依赖安装  ](https://lanping-tech.github.io/1_python_tutorials/conda/conda_introduction.html#%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85)中的**第3种安装介绍**-<font face="黑体" color=red>指定镜像下载地址和版本的依赖安装</font>。如下：
+这里参考上一篇 [Conda 基本使用技巧·依赖安装  ](https://lanping-tech.github.io/1_python_tutorials/conda/conda_introduction.html#%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85)中的**第3种安装介绍**-<font face="黑体" color=red><b>指定镜像下载地址和版本的依赖安装</b></font>。如下：
 
 ```bash
 conda install your_lib_name=x.x.x -c your_lib_url
 ```
 
 ```warning
-请将上述命令中的 `your_lib_name` 和 `x.x.x` 改为自己所需安装的依赖名称和版本号，**`your_lib_url` 改为上述 Conda 国内镜像源地址**。
+请将上述命令中的**`your_lib_url` 改为上述 Conda 国内镜像源地址**， `your_lib_name` 和 `x.x.x` 改为自己所需安装的依赖名称和版本号。
 
 另外，**建议依赖安装时，请检查当前环境是否为所需安装依赖的环境**，不可粗心大意！
 ```
