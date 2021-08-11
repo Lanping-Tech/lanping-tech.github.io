@@ -29,3 +29,7 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
+
+google:
+  gtag: G-W2V6CG5NF1
+  adsense: # adsense code
