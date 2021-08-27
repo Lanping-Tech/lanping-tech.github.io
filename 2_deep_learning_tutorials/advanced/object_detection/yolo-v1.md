@@ -28,9 +28,9 @@ YOLO v1 将目标检测定义为回归问题，直接读入全部图像，回归
 
 在测试阶段，类别置信度的分数就是分类概率和置信度相乘，即盒子中「有这个类别的概率」和「网络预测这个类别的概率」的乘积：
 
-$$
+\begin{equation}
 \text{Pr(Class}_i|\text{Object})\*\text{Pr(Object)}\*\text{IOU}_{\text{pred}}^\text{truth}=\text{Pr(Class}_i) \* \text{IOU}_{\text{pred}}^\text{truth}
-$$
+\end{equation}
 
 ## 网络结构
 
@@ -44,13 +44,13 @@ x.view(-1, S, S, 5 * B + C)
 
 ## 损失函数
 
-$$
-{ } & \lambda_{coord} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{obj}} [(x_i-\hat{x}_i)^2 + (y_i-\hat{y}_i)^2] 
+\begin{aligned}
+{ } & \lambda_{coord} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{obj}} [(x_i-\hat{x}_i)^2 + (y_i-\hat{y}_i)^2] \\
 { } &+ \lambda_{coord} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{obj}} [(\sqrt{w_i}-\sqrt{\hat{w}_i})^2+(\sqrt{h_i}-\sqrt{\hat{h}_i})^2] \\
 { } &+ \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{obj}} (C_i - \hat{C}_i)^2 \\
 { } &+ \lambda_{noobj} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{noobj}} (C_i - \hat{C}_i)^2 \\
 { } &+ \sum_{i=0}^{S^2} \mathbb{I}_{ij}^{\text{obj}} \sum_{c\in classes} (p_i(c)-\hat{p}_i(c))^2
-$$
+\end{aligned}
 
 - $\lambda_{coord}$ 是前景的权重，$\mathbb{I}_{ij}^{\text{obj}}$ 是指示函数，取值只有 0 和 1
 - 前两行表示 bound box 的损失
