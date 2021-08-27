@@ -44,6 +44,7 @@ x.view(-1, S, S, 5 * B + C)
 
 ## 损失函数
 
+$$
 \begin{aligned}
 { } & \lambda_{coord} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{obj}} [(x_i-\hat{x}_i)^2 + (y_i-\hat{y}_i)^2] \\
 { } &+ \lambda_{coord} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{obj}} [(\sqrt{w_i}-\sqrt{\hat{w}_i})^2+(\sqrt{h_i}-\sqrt{\hat{h}_i})^2] \\
@@ -51,6 +52,7 @@ x.view(-1, S, S, 5 * B + C)
 { } &+ \lambda_{noobj} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{I}_{ij}^{\text{noobj}} (C_i - \hat{C}_i)^2 \\
 { } &+ \sum_{i=0}^{S^2} \mathbb{I}_{ij}^{\text{obj}} \sum_{c\in classes} (p_i(c)-\hat{p}_i(c))^2
 \end{aligned}
+$$
 
 - $\lambda_{coord}$ 是前景的权重，$\mathbb{I}_{ij}^{\text{obj}}$ 是指示函数，取值只有 0 和 1
 - 前两行表示 bound box 的损失
